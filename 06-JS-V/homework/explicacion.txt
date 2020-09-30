@@ -1,0 +1,24 @@
+ `prototype`
+* _Constructors_ (de Clases)
+
+Las clases serian los planos del objeto
+para poder crear un objeto lo hacemos con un _Constructors_
+
+ejemplo:
+
+// constructor
+ function Vendedor(nombre,edad,email){
+
+     this.nombre = nombre;
+     this.edad = edad;
+     this.email = email;
+ }
+
+    // se invoca el constructor con la palabra new y se lo asigna a una vatiable
+ s1 = new Vendedor('eduardo',60,'edu@gmail.com');
+
+ el prototype se utilizan para establecer metodos una vez y poder accederlo de todos los objetos asi de esta forma ahorrar memoria
+
+ Vendedor.prototype.saludar = function () {
+    return 'Hola, mi nombre es '+this.nombre;
+  }

@@ -1,0 +1,40 @@
+
+
+Los ojetos se encuentran en todos los elementos de js salvo en variables primitivas
+se representan x {}
+en su interior contiene propiedades del objeto que se expresan como key:Value
+
+        ejemplo
+
+        vendedor ={
+            nombre:'eduardo',
+            edad:60,
+            responsable:true,
+            saludar(){
+                console.log('Hola, soy '+ this.nombre);
+            }
+        }
+
+para acceder a los valores se pueden utilizar dos metodos el . o los []
+
+        vendedor.nombre  = vendedor['nombre'];
+
+para agregar una propiedad propiedad se utiliza el =
+
+        ejemplo : vendedor.email = 'eduardo.campili@gmail.com';
+                : vendedor['email'] = 'eduardo.campili@gmail.com';
+
+para eliminar una propiedad
+
+        delete vendedor.email
+
+
+Las funciones guardadas dentro de los objetos se llaman metodos
+
+Para poder iterar sobre las propiedades del objeto se utiliza
+
+for( let clave in vendedor){
+    console.log(clave); // para obtener los key
+    console.log(vendedor[clave]); // para obtener los valores
+}
+

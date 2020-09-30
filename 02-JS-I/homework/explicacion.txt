@@ -1,0 +1,64 @@
+
+
+* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+
+    Variable: 
+    
+    Es un elemento que se emplea para almacenar y hacer referencia a otro valor.
+
+    para definirlas se utiliza la palabra reservada "var"
+    ejemplo : var suma;
+
+    para la asignacion de valor se utiliza el "="
+
+    Tipos de Variables:
+
+    numéricas (1,2,3.4)
+    Strings ( "cadena de texto" )  
+    Arrays [1,2,"eduardo", false] Los Arrays son una coleccion de variables
+    bool la variable booleana tiene dos valores posibles, true or false.
+
+    Funciones:
+
+    se utilizan para realizar tareas repetitivas
+
+    function saludar(nombre){
+        console.log(nombre);
+    }
+
+    function suma(a,b){
+        return a+b;
+    }
+    las funciones pueden tener argumentos que van entre parentesis.
+
+    para invocar una funcion se utiliza:
+
+    saludar("eduardo);// eduardo
+    suma(10+15);// 25
+
+
+    Condicionales:
+
+    las declaraciones if
+
+    if(condicion){
+        ejecucion
+    }else{
+        ejecuta si no se cumple la condicion.
+    }
+
+    tambien se pueden anidar varios if
+     if(condicion){
+        ejecucion
+    }else if(otra condicion){
+        ejecuta si otra condicion
+    }else{
+        ejecuta si no se cumple ninguna de las dos condiciones
+    }
+
+

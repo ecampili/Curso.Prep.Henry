@@ -1,0 +1,38 @@
+`for`
+* `&&`, `||`, `!`
+
+el for se utiliza para bucles miertras se cumplan determinadas condiciones
+
+ejemplo 
+
+
+// para generar numeros de 0 a 99
+for(let i = 0; i<100;i++){
+    console.log(i);
+};
+
+for(valor inicial; condicion;incremento){
+    ejecucion mientras dure la condicion;
+}
+
+El && es And o Y  
+es true cuando ambas condiciones son verdaderas
+
+T T true
+T F false
+F T false
+F F false
+
+
+el || es Or u O
+es true cuando al menos una de las dos condiciones es verdadera
+T T true
+T F true
+F T true
+F F false
+
+el ! es la negacion
+
+!true == false // true
+!!true == true // true
+

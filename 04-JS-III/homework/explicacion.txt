@@ -1,0 +1,43 @@
+Arrays
+
+
+Un Array es una coleccion de variables separadas por "," se representa con []
+
+dentro de una Array puede haber variables del mismo tipo o de diversos tipos
+
+ejemplo de el mismo tipo serian
+
+var numeros =[1,2,3,4,5,6,7,8,9];
+
+var dias=['Lunes','Martes','Miércoles','Jueves','Viernes'];
+
+ejemplo de diversos tipos:
+
+var varios = [1,true,"Eduardo",[1,3,5,7,9]];
+
+para invocar tomar en cuenta que el indice inicial es = 0
+
+varios[0] // 1
+varios[2] // Eduardo
+varios[3][2] // 5
+
+para agregar un valor al final se utiliza push() y para sacar el ultimo se usa pop()
+
+ejemplo varios.push(false);  convertiria a varios asi:
+
+[1,true,"Eduardo",[1,3,5,7,9],true]
+
+para obtener la cantidad de elemntos de un array se utiliza .length
+
+ejemplo de pop()
+ejemplo.varios.pop() // nos devuelve el ultimo elemento y a su vez lo saca del array
+
+el unshift y el shift hace lo mismo que el push y pop pero con el inicio del array
+
+
+para recorrer un array se puede usar for
+
+for(var i= 0; i< varios.length;i++){
+    console.log(varios[i]);
+}
+

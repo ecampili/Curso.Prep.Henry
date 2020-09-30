@@ -1,0 +1,18 @@
+Callback
+
+las funciones tienen la capacidad de pasar una funcion como argumento a esta funcion se la llama Callback Callback
+ejemplo
+
+definimos una funcion
+
+function buenDia(nombre){
+    return 'Buen día ' +nombre;
+}
+
+function buenasTardes(nombre){
+    return 'Buenas tardes ' +nombre;
+}
+
+function saludar( nombre, cb){
+    return cb(nombre);
+}
